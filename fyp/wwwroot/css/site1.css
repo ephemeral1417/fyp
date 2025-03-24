@@ -1,0 +1,21 @@
+/* Background styling */
+.background {
+    background-color: #F6F8D5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Blue box (Fixed Size) */
+.login-container {
+    background-color: #205781; /* Blue color */
+    width: 400px; /* Fixed width */
+    height: 500px; /* Fixed height */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

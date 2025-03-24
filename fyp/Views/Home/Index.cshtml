@@ -1,0 +1,22 @@
+﻿@section Styles {
+    <link rel="stylesheet" href="~/css/login.css" asp-append-version="true">
+}
+
+@section Scripts {
+    <script src="~/js/login.js" asp-append-version="true"></script>
+}
+
+@{
+    ViewData["Title"] = "HomePage";
+    Layout = "~/Views/Shared/Layouts/_LayoutAuth.cshtml";
+}
+
+<div class="container">
+    <div class="row min-vh-100 justify-content-center align-items-center">
+        <div class="col-md-6 text-center">
+            <a asp-controller="Account" asp-action="Login" class="btn btn-primary btn-lg px-5 py-3">
+                <i class="bi bi-play-fill me-2"></i>Start Login
+            </a>
+        </div>
+    </div>
+</div>
